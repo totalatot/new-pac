@@ -1,0 +1,10 @@
+cd device/moto/shamu
+git fetch "https://github.com/LineageOS/android_device_moto_shamu" refs/changes/43/275643/1 && git cherry-pick FETCH_HEAD
+git fetch "https://github.com/LineageOS/android_device_moto_shamu" refs/changes/44/275644/1 && git cherry-pick FETCH_HEAD
+git fetch "https://github.com/LineageOS/android_device_moto_shamu" refs/changes/45/275645/1 && git cherry-pick FETCH_HEAD
+cd -
+cd kernel/moto/shamu
+git fetch "https://github.com/LineageOS/android_kernel_moto_shamu" refs/changes/46/275646/1 && git cherry-pick FETCH_HEAD
+glo
+cd -
+
